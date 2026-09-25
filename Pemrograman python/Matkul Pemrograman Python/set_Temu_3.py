@@ -1,4 +1,4 @@
-#Menyimpan data yang tidak boleh ada duplikat pada data print
+#Menyimpan data yang tidak boleh ada duplikat dan tidak berurutan pada data
 
 angka_list = [1,2,2,3,3,3,4]
 
