@@ -17,7 +17,7 @@ nama, usia, jurusan = identitas #Setiap indeks bisa diberikan nama
 print(f"Nama : {nama}, usia {usia}, Jurusan {jurusan}")
 
 print("\n")
-
+print("tes1234")
 angka = (1,2,3,2,4,2)
 print(angka.count(2)) #Menghitung kemunculan indeks 2. Menghitung ada berapa angka 2
 print(angka.index(3)) #posisi indeks 3
