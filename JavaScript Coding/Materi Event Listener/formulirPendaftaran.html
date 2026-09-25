@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .container {
+        max-width: 400px;
+        border: 2px solid pink;
+        border-radius: 5px;
+        padding: 15px;
+        margin: auto;
+    }
+    input, select, buttton {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        box-sizing: border-box;
+        
+    }
+    #hasil {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #eef;
+        border-left: 5px solid #007bff;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Pendaftaran</h2>
+
+        <form id="form-daftar">
+            <label for="nama">Nama Lengkap :</label>
+            <input type="text" id="nama" required>
+
+            <label for="jurusan">Pilih Jurusan :</label>
+            <select id="Jurusan">
+                <option value="">---Pilih Jurusan---</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Desain Grafis">Desain Grafis</option>
+                <option value="Teknik Mesin">Teknik Mesin</option>
+            </select>
+
+            <button type="Submit" id="tombol-daftar">Daftar Sekarang</button>
+           
+        </form>
+        <div id="hasil">
+            <p>Hasil pendaftaran akan ditampilkan disini</p>
+        </div>
+    </div>
+    <script src="formulir.js"></script>
+</body>
+</html>

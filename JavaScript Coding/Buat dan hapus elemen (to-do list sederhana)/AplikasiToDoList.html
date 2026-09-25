@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        .app-container {
+            max-width: 500px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px ;
+            border-radius: 10px;
+            border: 3px solid;
+            border-color: #007bff;
+        }
+        form {
+            display: flex;
+        }
+        input[type="text"] {
+            flex-grow: 1;
+            padding: 10px;
+            border: #ddd;
+        }
+        button {
+            padding : 10px;
+            border: none;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 12px;
+            background: #eee;
+            margin-top: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .tombol-hapus {
+            background: #dc3545;
+            border-radius: 4px;
+            color: white;
+            border: none;
+            padding: 5px 8px;
+            cursor: pointer;
+        }
+    </style>
+<body>
+    <div class="app-container">
+        <h1>To-Do List</h1>
+        <form id="form-tugas">
+            <input type="text" id="input-tugas" placeholder="Tambahkan tugas baru..." required>
+            <button type="submit">Tambah</button>
+        </form>
+        <ul id="daftar-tugas">
+           
+        </ul>
+    </div>
+    <script src="ToDoList.js"></script>
+</body>
+</html>

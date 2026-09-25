@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Makanan</title>
+
+    <style type="text/css">
+        body {
+            background-color: pink;
+        }
+        .divBorder{
+         max-width: 400px;
+        border: 3px solid rgb(14, 14, 14);
+        border-radius: 5px;
+        padding: 15px;
+        margin: auto;
+        }
+        .Nama{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: blue;
+            text-align: left;
+            
+        }
+        input, select {
+            width: 100%;
+             padding: 5px;
+        margin-top: 5px;
+        box-sizing: border-box;
+        }
+        button{
+            width: 50%;
+            padding: 5px;
+            font-family: ;
+            border: 2px solid;
+            border-color: blue;
+
+        }
+        button:hover{
+            color: red;
+            border-color: red;
+        }
+        #Hasil{
+            border-left: 5px solid #007bff;
+            padding-left: 5px;
+            background-color: whitesmoke;
+            margin: auto;
+           
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="divBorder">
+        <h2>Penndaftaran menu Makanan</h2>
+        <form id="FormDaftar">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" required>
+
+        <label for="Makanan">Pilih Menu Makanan :</label>
+        <select id="Makanan">
+            <option value="">----Pilih Menu Makanan----</option>
+            <option value="Krabby Patty">Krabby Patty</option>
+            <option value="Krabby Patty Jelly">Krabby Patty Jelly</option>
+            <option value="Chum">Chum</option>
+            <option value="Pie">Pie</option>
+        </select>
+
+        <label for="Minuman" >Pilih Minuman Anda</label>
+        <select id="Minuman">
+            <option value="">----Pilih Minuman anda----</option>
+            <option value="Kelp Shake">Kelp Shake</option>
+            <option value="Matcha Latte">Matcha Latte</option>
+            <option value="Ice Americano">Ice Americano</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Daftar/Bayar</button>
+            <form>
+                <div id="Hasil">
+                    <p>Silahkan Pilih Menunya</p>
+                </div>
+    </div>
+    <script src="FormulirMakanan.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Tombol suka</title>
+    <style>
+        #tombolSuka{
+            font-size: 24px;
+            padding: 10px 20px;
+            border: 2px solid #ccc;
+            border-radius: 25px;
+            cursor: pointer;
+            background-color: aqua;
+            transition: all 0.2s ease;
+        }
+        #tombolSuka.liked{
+            background-color: blue;
+            color: aliceblue;
+            border-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ini Mini Proyek tombol Suka</h1><br>
+    <h2>Klik tombol ini </h2>
+    <button id="tombolSuka">Like</button>
+    <p>Jumlah suka : <span id="jumlahSuka">0</span></p>
+    <script src="ubah.js"></script>
+</body>
+</html>
