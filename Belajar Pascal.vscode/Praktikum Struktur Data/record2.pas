@@ -1,5 +1,6 @@
 program kasir;
 uses crt;
+
 type
   data = record
   kode : string[5]; //angka 5 adalah panjang karakter yang bisa diinputkan
