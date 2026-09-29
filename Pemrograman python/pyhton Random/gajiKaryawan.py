@@ -27,9 +27,6 @@ gaji_akhir = penghasilan_kotor - potongan_bpjs
 
 print("=== RINCIAN GAJI BULANAN ===")
 
-
-
-
 print("Jabatan", posisi[indeks])
 print("Gaji Pokok : ", gaji_pokok[indeks])
 print("Uang makan : ", uang_makan)
