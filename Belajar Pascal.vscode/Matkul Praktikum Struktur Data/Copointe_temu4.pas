@@ -4,6 +4,7 @@ var
   nama1,nama2,nama3,nama4:^string;
 begin
   clrscr;
+  writeln("Ini adalah materi pointer ");
   new(nama1);new(nama2);new(nama3);new(nama4);
   write('Masukkan nama3=');readln(nama3^);
   write('Masukkan nama4=');readln(nama4^);
