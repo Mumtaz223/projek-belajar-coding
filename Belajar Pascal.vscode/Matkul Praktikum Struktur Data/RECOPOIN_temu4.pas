@@ -8,7 +8,7 @@ type
     gaji:real;
     end;
 var
-  datakaryawan1,datakaryawan2,datakaryawan3,datakaryawan4:penunjukkaryawan;
+  datakaryawan1,datakaryawan2,datakaryawan3,datakaryawan4 : penunjukkaryawan;
 begin
   clrscr;
   writeln('Masukkan 4 buah data karyawan:');
